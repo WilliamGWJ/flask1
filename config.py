@@ -19,3 +19,4 @@ class DevConfig(Config):
     # open the dubug
     DEBUG = True
     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:python@127.0.0.1:3306/flask1'
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
